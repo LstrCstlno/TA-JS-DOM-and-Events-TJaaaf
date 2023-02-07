@@ -78,8 +78,6 @@ h1{
     line-height: 100px;
 }
 
-
-
 .calculator{
     margin: 20px 0;
 }
@@ -96,6 +94,10 @@ h1{
     margin-right: 10px;
 }
 
+.buttons:hover{
+    background-color: #9f9c9c;
+}
+
 .width23{
     width: 23%;
 }
@@ -108,19 +110,9 @@ h1{
     width: 100%;
 }
 
-
-
-
-
-
-
 .flex{
     display: flex;
 }
-
-
-
-
 
 .left{
     width: auto;
@@ -152,6 +144,14 @@ h1{
     background-color: #018080;
 }
 
+.eql:hover{
+    height: 315px;
+    padding: 0 20px;
+    line-height: 315px;
+    margin-top: 10px;
+    background-color: #04a1a1;
+}
+
 .calcontainer{
     width: 100%;
 }
@@ -161,8 +161,19 @@ h1{
     color: #d7b2a4;
 }
 
+.maroon:hover{
+    background-color: #3D1B10; 
+    color: #d7b2a4;
+}
+
+
 .red{
     background-color: #710133;
     color: white;
 }
+
+.red:hover{
+    background-color: #ab034f;
+}
+
 

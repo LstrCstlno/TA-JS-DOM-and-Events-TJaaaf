@@ -20,7 +20,8 @@ function code() {
         }
         return h2.innerText = count
     })
-}
+}c
 
 code();
+
 
