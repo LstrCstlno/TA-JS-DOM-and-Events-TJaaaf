@@ -1,0 +1,179 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* my styles */
+body{
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    padding: 2rem 0; 
+}
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.screen{
+    background-color: black;
+    border-radius: 13px;
+}
+
+.screen h2{
+    color: white;
+    text-align: right;
+    font-size: 3.2rem;
+    margin: 0 2rem;
+    height: 100px;
+    line-height: 100px;
+}
+
+.calculator{
+    margin: 20px 0;
+}
+
+.buttons{
+    background-color: #CFCFCF;
+    text-align: center;
+    padding: 20px 60px;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 5px 0;
+    margin-right: 10px;
+}
+
+.buttons:hover{
+    background-color: #9f9c9c;
+}
+
+.width23{
+    width: 23%;
+}
+
+.btn{
+    border: none;
+}
+
+.width100{
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+}
+
+.left{
+    width: auto;
+}
+
+.right{
+    width: auto;
+}
+
+.btn{
+    background-color: #CFCFCF;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+.pec{
+    padding: 20px 60px;
+}
+
+.eql{
+    height: 315px;
+    padding: 0 20px;
+    line-height: 315px;
+    margin-top: 10px;
+    background-color: #018080;
+}
+
+.eql:hover{
+    height: 315px;
+    padding: 0 20px;
+    line-height: 315px;
+    margin-top: 10px;
+    background-color: #04a1a1;
+}
+
+.calcontainer{
+    width: 100%;
+}
+
+.maroon{
+    background-color: #3D1B10; 
+    color: #d7b2a4;
+}
+
+.maroon:hover{
+    background-color: #3D1B10; 
+    color: #d7b2a4;
+}
+
+
+.red{
+    background-color: #710133;
+    color: white;
+}
+
+.red:hover{
+    background-color: #ab034f;
+}
+
+
