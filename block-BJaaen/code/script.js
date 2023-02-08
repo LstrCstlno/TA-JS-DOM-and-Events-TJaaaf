@@ -99,11 +99,13 @@ function checkWinner() {
 
 function resetCount(event){
     if (event.target.classList.contains("reset")) {
+        count = reset;
+        compCount = reset;
         youCounter.innerText = reset;
         compCounter.innerText = reset;
         yourMoveText.innerText = ""
         compMove.innerText = "";
-        verdict.innerText = "";
+        verdict.innerText = ""
     }
     return
 }
