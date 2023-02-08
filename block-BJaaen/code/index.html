@@ -3,9 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/TA-JS-DOM-and-Events-TJaaaf/block-BJaaen/code/style.css">
     <title>Rock Paper and Scissors</title>
+    <script src="https://kit.fontawesome.com/852aff0772.js" crossorigin="anonymous"></script>
   </head>
   <body>
+    <section class="appcontainer">
+      <header>
+        <h1>
+          Rock - Paper - Scissors
+        </h1>
+      </header>
+      <main>
+        <section class="container">
+          <div class="you">
+            <div class="youhead flex">
+              <h2 class="youheadbox">
+                You -
+              </h2>
+              <p class="counter youheadbox">
+                0
+              </p>
+              <p class="yourmove youheadbox">
+              </p>
+            </div>
+            <ul class="moves flex spacebtw">
+              <li class = "movebox yourmovebox" >
+                <i class="fa fa-hand-rock-o rock" aria-hidden="true" data-move="--- Rock"></i>
+              </li>
+              <li class = "movebox yourmovebox">
+                <i class="fa fa-hand-paper-o paper" aria-hidden="true" data-move="--- Paper"></i>
+              </li>
+              <li class = "movebox yourmovebox">
+                <i class="fa fa-hand-scissors-o scissors" aria-hidden="true" data-move="--- Scissors"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="computer">
+            <div class=" computerhead flex">
+              <h2 class="computerheadbox">
+                Computer -
+              </h2>
+              <p class="compcounter computerheadbox">
+                0
+              </p>
+              <p class="computermove computerheadbox">
+              </p>
+            </div>
+            <ul class="computermoves flex spacebtw">
+              <li class = "computermovebox comprock" data-compmove="--- Rock">
+                <i class="fa fa-hand-rock-o" aria-hidden="true"></i>
+              </li>
+              <li class = "computermovebox comppaper" data-compmove="--- Paper">
+                <i class="fa fa-hand-paper-o" aria-hidden="true"></i>
+              </li>
+              <li class = "computermovebox compscissors" data-compmove="--- Scissors">
+                <i class="fa fa-hand-scissors-o" aria-hidden="true"></i>
+              </li>
+            </ul>
+          </div>
+          <section class="foot">
+            <button class="refresh">
+              <i class="fa-solid fa-arrows-rotate reset"></i>
+            </button>
+            <h3 class="verdict">
+            </h3>
+          </section>
+        </section>
+      </main>
+    </section>
     <script src="./script.js"></script>
   </body>
 </html>
