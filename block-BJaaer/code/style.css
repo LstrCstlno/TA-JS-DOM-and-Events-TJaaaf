@@ -91,3 +91,31 @@ input[type='text'] {
 .terms {
   display: inline-block;
 }
+
+.modal{
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 20px;
+}
+
+.nameli{
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.modal li{
+  padding-bottom:20px ;
+}
+
+.close{
+  border: none;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: white;
+  font-size: 15px;
+}
