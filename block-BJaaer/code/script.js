@@ -16,6 +16,7 @@ function closer(event) {
 
 function handler(event) {
     event.preventDefault();
+    modal.innerHTML = ""
     formInfo.name = form.elements.text.value
     formInfo.email = form.elements.email.value
     formInfo.prefference = form.elements.gender.value
