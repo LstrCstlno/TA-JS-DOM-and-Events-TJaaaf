@@ -1,9 +1,9 @@
 let data = JSON.parse(localStorage.getItem('todos')) || []
 
 let todoList = document.querySelector(".todo-list")
-let count = 0;
+let count = Number(localStorage.getItem("count")) || 0;
 let classCount = document.querySelector(".count")
-classCount.innerText = `0 items left`
+classCount.innerText = `${count} items left`
 let filter = document.querySelector(".filter")
 let all = document.querySelector(".all")
 let active = document.querySelector(".active")
@@ -43,13 +43,16 @@ function checking(event) {
         label[id].style.textDecoration = "line-through"
         label[id].style.color = "grey"
         count = count - 1;
+        localStorage.setItem("count", count)
     }
     else if (!data[id].checked){
         label[id].style.textDecoration = ""
         label[id].style.color = "black"
         count = count + 1
+        localStorage.setItem("count", count)
     }
     classCount.innerText = `${count} items left`
+    localStorage.setItem("count", count)
     localStorage.setItem("todos", JSON.stringify(data))
 }
 
