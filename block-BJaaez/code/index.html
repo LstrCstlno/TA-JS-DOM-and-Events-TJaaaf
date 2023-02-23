@@ -3,10 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>TODO Application</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header>
+      <h1>
+        todos
+      </h1>
+    </header>
+    <main>
+      <section class="todos-box">
+        <div class="input border">
+          <i class="fa-solid fa-chevron-down"></i>
+          <input type="text" name="todo" placeholder="What needs to be done?">
+        </div>
+        <ul class="todo-list">
+        </ul>
+        <ul class=" border flex filter">
+          <li class="count"></li>
+          <nav class="flex">
+            <li class="filter-child all">All</li>
+            <li class="filter-child active">Active</li>
+            <li class="filter-child complete">Completed</li>
+          </nav>
+          <li class="clear filter-child">
+            Clear completed
+          </li>
+        </ul>
+      </section>
+    </main>
     <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/852aff0772.js" crossorigin="anonymous"></script>
   </body>
 </html>
