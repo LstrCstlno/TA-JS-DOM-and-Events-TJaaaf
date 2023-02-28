@@ -1,0 +1,150 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* my styles */
+body{
+    background-color: #F5F5F5;
+}
+
+header{
+    text-align: center;
+    margin-top: 30px;
+}
+
+h1{
+    font-size: 80px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #EAD7D7;
+}
+
+.todos-box{
+    width: 550px;
+    margin: 0 auto;
+}
+
+.input input{
+    outline: none;
+    border: none;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.input{
+    margin-top: 20px;
+}
+
+input::placeholder{
+    color: rgb(238, 235, 235);
+    font-style: italic;
+}
+
+input[type=text]:focus {
+    border: none;
+}
+
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+.fa-chevron-down{
+    padding-right: 20px;
+    color: rgb(238, 235, 235);
+    font-size: 20px;
+}
+
+.border{
+    box-shadow: 2px 2px 5px rgb(205, 203, 203);
+    background-color: white;
+    padding: 20px;
+}
+
+.todo{
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.close{
+    display: none;
+    margin-left: 250px;
+    color: #EAD7D7;
+}
+
+.close:hover{
+    color: #ed9595
+}
+
+.todo:hover .close{
+    display: inline-block;
+    transition: 0.55s;
+}
+
+.flex{
+    display: flex;
+}
+
+.filter-child{
+    margin-left: 20px;
+    color: grey;
+    cursor: pointer;
+}
+
+.count{
+    margin-right: 60px;
+    color: grey;
+    cursor:default;
+}
+
+.selected{
+    border: 1px solid rgb(207, 203, 203);
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+.clear{
+    margin-left: 60px;
+}

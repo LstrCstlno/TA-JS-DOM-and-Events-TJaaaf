@@ -1,0 +1,9 @@
+{
+"manifest_version": 3,
+"name": "dad joke generator",
+"description" : "random joke and background generator",
+"version": "1.0.1",
+"chrome_url_overrides": {
+    "newtab": "index.html"
+}
+}
